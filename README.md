@@ -1,4 +1,4 @@
- 
+ #### Heroku link --> https://note-taker-pwa-sw.herokuapp.com/
 ### note-taker (Service Worker) ![Maintained](https://img.shields.io/badge/readme-generator-yellowgreen) ![Maintained](https://img.shields.io/badge/UNC-bootCamp-blue)
 
 > ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) #Application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file and will serve the pages while application is offline.
