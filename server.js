@@ -1,3 +1,4 @@
+
 const express = require("express");
 const mongojs = require("mongojs");
 const logger = require("morgan");
@@ -12,7 +13,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-const databaseUrl = process.env.MONGODB_URI || "notetaker";
+const databaseUrl = process.env.MONGODB_URI || "mongodb://notetaker:notetaker12@ds061076.mlab.com:61076/heroku_d07xqkmx";
 const collections = ["notes"];
 
 const db = mongojs(databaseUrl, collections);
